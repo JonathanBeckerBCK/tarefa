@@ -1,0 +1,68 @@
+
+
+// Eu tentei fazer a tarefa, mas não consegui arrumar, mas queria saber o que achou do codigo.
+
+
+programa
+{
+	inteiro Qual
+	cadeia Criptografar, Descriptografar
+	
+	funcao inicio()
+	{
+		
+		escreva("Você quer [1]Criptografar ou [2]Descriptografar??\n\nEscolha:")
+		leia(Qual)
+				
+			se(Qual == 1)
+			{
+					
+				criptografar()	
+									
+			}
+				senao se(Qual == 2)
+				{	
+					//descriptografar()				
+				}
+					senao
+					{
+							
+						escreva("Digite 1 para Criptografar e 2 para Descriptografar.")
+						
+					}
+		
+		
+	}
+	funcao criptografar()
+	{
+		cadeia codigo, alfabeto[53]={"","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"}
+		inteiro i, rotacao
+			
+			escreva("Rotação:")
+			leia(rotacao)
+
+				se(rotacao < 27)
+				{	
+					para(i=1 + rotacao ; i < 27 + rotacao ; i++)
+					{
+						
+						escreva(alfabeto[i])
+						
+					}
+					
+						 
+						// P A R E I   A Q U I \\ 
+							
+						
+				}
+					senao se(rotacao > 26)
+					{
+						
+						escreva("A rotação máxima é de ROT26")
+					
+					}
+
+		
+	}
+
+}
