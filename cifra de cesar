@@ -2,7 +2,6 @@
 
 // Eu tentei fazer a tarefa, mas não consegui arrumar, mas queria saber o que achou do codigo.
 
-
 programa
 {
 	inteiro Qual
@@ -36,7 +35,7 @@ programa
 	funcao criptografar()
 	{
 		cadeia codigo, alfabeto[53]={"","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"}
-		inteiro i, rotacao
+		inteiro i, rotacao, letra
 			
 			escreva("Rotação:")
 			leia(rotacao)
@@ -48,12 +47,18 @@ programa
 						
 						escreva(alfabeto[i])
 						
+						
 					}
 					
-						 
-						// P A R E I   A Q U I \\ 
-							
-						
+						leia(letra)
+
+							se(letra == letra)
+							{
+								//------------parei aqui----------
+							}
+
+
+		
 				}
 					senao se(rotacao > 26)
 					{
